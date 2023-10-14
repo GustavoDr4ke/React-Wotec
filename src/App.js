@@ -1,10 +1,7 @@
 import loga from './wotec2.png';
 import loga2 from './logoWOTec.png';
 import './App.css';
-import './script/script';
-import { BiLogoWhatsapp } from "react-icons/bi";
-import { BiLogoReact } from "react-icons/bi";
-import { BiLogoDiscordAlt } from "react-icons/bi";
+
 
 function App() {
   return (
@@ -97,9 +94,9 @@ function App() {
                 A empresa em si é uma empresa de muito sucesso.
             </p>
             <div class="socials">
-                <a href="h"><i class={BiLogoDiscordAlt}></i></a>
-                <a href="h"><i class={BiLogoReact}></i></a>
-                <a href="h"><i class={BiLogoWhatsapp}></i></a>
+                <a href="h"><i class="ri-youtube-line"></i></a>
+                <a href="h"><i class="ri-instagram-line"></i></a>
+                <a href="h"><i class="ri-twitter-line"></i></a>
             </div>
         </div>
         <div class="column">
